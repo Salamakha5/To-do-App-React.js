@@ -1,0 +1,46 @@
+.todo_container{
+    background-color: var(--layer-color3);
+    width: 100%;
+  }
+
+.onetodo_container{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 90%;
+}
+
+/* scrool */
+.onetodo_container::-webkit-scrollbar {
+    width: 12px;               /* ширина всей полосы прокрутки */
+  }
+  
+  .onetodo_container::-webkit-scrollbar-track {
+    background:var(--layer-color3);        /* цвет зоны отслеживания */
+  }
+  
+  .onetodo_container::-webkit-scrollbar-thumb {
+    background-color: var(--layer-color2);    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    border: 4px solid var(--layer-color3);  /* отступ вокруг бегунка */
+  }
+/* scrool */
+.addmenu{
+    background-color:#D7E9F7;
+    width: max-content;
+    padding:2px 10px;
+    font-size: 20px;
+    font-family: monospace;
+    border: 3px solid black;
+    border-top: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.smallBurger_cont{
+  position: relative;
+}
+.smallBurger{
+  overflow: hidden;
+  background-color: var(--layer-color4);
+  position: absolute;
+  top: +100%;
+  left: 0px;
+}

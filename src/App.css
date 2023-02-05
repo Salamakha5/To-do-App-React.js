@@ -1,0 +1,7 @@
+.app{
+  background-color: var(--page-background-color);
+  transition: 0.7s;
+}
+.h100vh{
+  height: 100vh;
+}

@@ -1,0 +1,8 @@
+.footer_container{
+    background-color: var(--page-background-color);
+}
+.links{
+    text-decoration: none;
+    margin-left:5px;
+    font-size: 18px;
+}

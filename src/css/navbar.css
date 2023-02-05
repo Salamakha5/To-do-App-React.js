@@ -1,0 +1,21 @@
+.text{
+    color:var(--text-color);
+}
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    font-family: monospace;
+    font-style: italic;
+}
+.navbar-smoll{
+    display: flex;
+    justify-content: center;
+}
+.color-bg{
+    background-color:var(--burgerMenu-background-color);
+    border:var(--burgerMenu-border);
+    border-radius:10px;
+}
+.cursor_poiter{
+    cursor: pointer;
+}

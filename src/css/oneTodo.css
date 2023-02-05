@@ -1,0 +1,29 @@
+.oneTodo_container{
+    padding: 0px 20px;
+    margin:10px;
+    min-width: min-content;
+    height: max-content;
+}
+.text_cont{
+    text-align: center;
+}
+
+.conts{
+    margin: 0px 5px;
+    padding: 10px;
+}
+.burgerMenu_container{
+    position: relative;
+}
+.burgermenu{
+    position: absolute;
+    width: 100%;
+    top:+100%;
+}
+.line{
+    text-decoration:line-through;
+}
+#linenone{
+    text-decoration:dashed;
+
+}
